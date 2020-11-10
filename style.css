@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "raleway italic";
+    src: url("webfonts/Raleway-Italic-VariableFont_wght.ttf") format("truetype");
+           
+   }
+@font-face {
+    font-family: "raleway";
+    src:      url("webfonts/Raleway-VariableFont_wght.ttf") format("truetype");
+   }
+   .test{
+    color:black;
+    background-color:white;
+    background-image:url(images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+    background-repeat:no-repeat;
+    width: 350px;
+    height: 200px;
+    background-position:center center;
+   }
+body{
+    font-family: "raleway";
+    margin-top: 0px;
+}
+header
+{
+    line-height: 50px;
+    height: 70px;
+    width: 100%;   
+}
+#titre_principal{
+    display: flex;
+    width: 100%;
+}
+#titre_principal .sin{
+    font-weight: 800;
+    padding: 20px 20px;
+    text-decoration:none;
+    color: #0065fc;  
+}
+#logo{
+    width: 70%;
+    float: left;
+    line-height: 100px;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    line-height: 50px;
+   margin-top: 0px;
+}
+nav a{
+    font-weight: 800;
+    padding: 20px 20px;
+    text-decoration:none;
+    color: #0065fc;  
+}
+nav a:hover{
+    border-top:  solid;
+}
