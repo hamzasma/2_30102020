@@ -663,7 +663,7 @@ text-decoration: none;
         margin-top: 50px;
     }
     .heberplu {
-        align-items: center;
+        align-items: flex-start;
         border-radius: 0px 0px 0px 0px;
     flex-wrap: wrap;
     }
@@ -735,7 +735,7 @@ text-decoration: none;
         margin-right: 15px;
         width: 98%;
         height: 50px;
-        margin-left: 2px;
+        margin-left: 20px;
 
      }
     .titre h3 {
@@ -769,6 +769,9 @@ text-decoration: none;
         width: 100%;
         margin-bottom: 0px;
         
+    }
+    .heber .titreheb{
+        margin-left: 20px;
     }
     .heber .hotel {
         width: 96%;
