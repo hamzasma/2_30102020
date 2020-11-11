@@ -208,6 +208,7 @@ form .btn2{
     width: 800px;
 }
 .heber .cont a{
+    display: block;
     height: 200px;
 }
 .heber .cont a:visited{
