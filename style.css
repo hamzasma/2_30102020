@@ -733,6 +733,7 @@ color: black;
         flex-direction: row;
         flex-wrap: wrap;
         height: 130px;
+        padding-top: 20px;
     }
     #titre_principal :nth-child(1) { order: 1; }
     #titre_principal :nth-child(2) { order: 3; }
@@ -747,8 +748,9 @@ color: black;
         height: 130px;
     }
     #logo{
-        line-height: 0px;
-        width: 40%;
+        line-height: 0px;   
+        width: 30%;
+        margin-left: 19px;
     }
     nav{
         width: 100%;
