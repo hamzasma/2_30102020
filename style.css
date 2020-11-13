@@ -61,10 +61,11 @@ nav a{
     font-weight: 800;
     padding: 20px 20px;
     text-decoration:none;
-    color: #0065fc;  
+    color: black;  
 }
 nav a:hover{
     border-top:  solid;
+    color: #0065fc;
 }
 
 .titre 
@@ -246,7 +247,8 @@ form .btn2{
 .heber .hotel img{
     width: 100%;
     height: 114px;
-    display: none;
+    object-fit: cover;
+    object-position: 50% 71%;
 }
 .heber .hotel .nom {
     height: 80px;
@@ -275,14 +277,12 @@ form .btn2{
     font-size: 11px;
 
 }
-.heber .hotel .nom .prix #et{
-    
-}
+
 .heber .afpl{  
     margin-left: 40px;
     font-weight: bold;
     width: 100%;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
 }
 .heber .afpl:visited {color: inherit;}
@@ -347,7 +347,10 @@ form .btn2{
 .heberplu .hotel img{
     width: 130px;
     height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
 }
+
 .heberplu .hotel .nom .nomh{
     padding-right: 10px;
     font-size: 19px;
@@ -422,6 +425,8 @@ text-decoration: none;
 .activites .conteneuract .activite img{
     width: 100%;
     height: 390px;
+    object-fit: cover;
+    object-position: 50% 50%;
 }
 .activites .conteneuract .activite p{
     margin-left: 20px;
@@ -448,6 +453,8 @@ text-decoration: none;
 .activites .conteneuract .activite1 img{
     width: 100%;
     height: 180px;
+    object-fit: cover;
+    object-position: 50% 50%;
 }
 .activites .conteneuract .activite1 p{
     margin-left: 20px;
@@ -469,6 +476,8 @@ text-decoration: none;
 .activites .conteneuract .activite2 img{
     width: 100%;
     height: 110px;
+    object-fit: cover;
+    object-position: 50% 50%;
 }
 .activites .conteneuract .activite2 p{
     margin-left: 20px;
@@ -497,6 +506,8 @@ text-decoration: none;
 .activites .conteneuract .activite3 img{
     width: 100%;
     height: 140px;
+    object-fit: cover;
+    object-position: 50% 50%;
 }
 .activites .conteneuract .activite3 p{
     margin-left: 20px;
@@ -516,7 +527,9 @@ text-decoration: none;
 }
 .activites .conteneuract .activite4 img{
     width: 100%;
-    height: 155px
+    height: 155px;
+    object-fit: cover;
+    object-position: 50% 50%;
 }
 .activites .conteneuract .activite4 p{
     margin-left: 20px;
@@ -538,12 +551,13 @@ text-decoration: none;
 }
 
 
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 1024px){
      #bloc_page{
          width: 1340px;
      }
 }
-@media screen and (max-width: 1280px){
+
+@media screen and (max-width: 1024px){
     #bloc_page{
         width: 100%
     }
@@ -690,7 +704,7 @@ text-decoration: none;
         margin-right: 0px;
     }
     .heberplu .hotel {
-        width: 98%;
+        width: 97%;
     }
     .footer{
         flex-direction: column;
@@ -730,6 +744,7 @@ text-decoration: none;
     }
     nav{
         width: 100%;
+        height: fit-content;
     }
     nav a {
         width: 50%;
@@ -743,19 +758,19 @@ text-decoration: none;
     }
     #filtr a {
         margin-right: 10px;
-        margin-left: 0px;
-       
-       
-        
+        margin-left: 0px;      
     }
    
     form {
         margin-right: 15px;
-        width: 95%;
+        width: 90%;
         height: 50px;
         margin-left: 20px;
 
      }
+     form input { 
+        width: 68%;;
+    }
     .titre h3 {
         line-height: 25px;
         font-weight: bold;
@@ -778,6 +793,10 @@ text-decoration: none;
     form .btn1{
         display: none;
     }
+    .info  {
+        width: 93%;
+        margin: auto;
+    }
     .heber .cont{
         width: 100%;
         margin-left: 10px;
@@ -791,8 +810,14 @@ text-decoration: none;
     .heber .titreheb{
         margin-left: 20px;
     }
+    .heberplu .titreheb {
+        margin-left: 16px;
+    }
     .heber .hotel {
-        width: 96%;
+        width: 98%;
+    }
+    h1{
+        margin-top: 20px;
     }
     .activites .conteneuract {
         margin-left: 0px;
@@ -866,6 +891,9 @@ text-decoration: none;
     .activites .conteneuract .activite4 img {
         width: 100%;
         height: 135px;
+    }
+    .footer {
+        margin-top: 26px;
     }
 
 
