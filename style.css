@@ -215,6 +215,7 @@ form .btn2{
 .heber .cont a{
     display: block;
     height: 200px;
+    color: black;
 }
 .heber .cont a:visited{
     color: inherit;
@@ -287,6 +288,7 @@ form .btn2{
     width: 100%;
     font-size: 17px;
     font-weight: bold;
+    color: black;
 }
 .heber .afpl:visited {color: inherit;}
 
@@ -329,6 +331,7 @@ form .btn2{
     text-decoration:none;
     height: auto;
     margin-left: 35px;
+    color: black;
 }
 .heberplu a:visited{
     color: inherit;
@@ -391,6 +394,7 @@ h1{
 }
 .activites .a
 {
+    color: black;
     width: 23%;
     font-size: 17px;
     font-weight: bold;
@@ -402,6 +406,7 @@ text-decoration: none;
     font-size: 17px;
     font-weight: bold;
 text-decoration: none;
+color: black;
 }
 .activites a:visited
 {
