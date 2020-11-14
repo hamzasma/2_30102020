@@ -74,8 +74,11 @@ nav a:hover{
     flex-direction: column;
     float: left;
     line-height: 0px;
+    width: 100%;
+    padding-top: 17px;
+    padding-bottom: 17px;
 }
-.titre h3{
+.titre h1{
     line-height: 2px;
     font-weight: bold;
     font-size: 23px;
@@ -281,6 +284,12 @@ form .btn2{
     font-size: 11px;
 
 }
+.bl{
+    color: #0065fc;
+}
+.gr{
+    color: #d9d9d9;
+}
 
 .heber .afpl{  
     margin-left: 40px;
@@ -373,7 +382,6 @@ form .btn2{
 }
 .heberplu .hotel .nom .prix i{
     margin-top: 35px;
-    color: #0065FC;
     line-height: 6px;
     margin-right: 1px;
     font-size: 11px;
@@ -382,7 +390,7 @@ form .btn2{
 .heberplu .hotel .nom .prix #et{
     color: #F2F2F2;
 }
-h1{
+.titreact{
     margin-top: 60px;
     font-size: 22px;
     margin-left: 20px;
@@ -673,11 +681,13 @@ color: black;
     body{
         margin: 0;
     }
+    
     .titre {
         width: 95%;
         margin: auto;
+        margin-left: 10px;
     }
-    .titre h3 {
+    .titre h1 {
         line-height: 25px;
         font-weight: bold;
     }
@@ -781,7 +791,7 @@ color: black;
      form input { 
         width: 68%;;
     }
-    .titre h3 {
+    .titre h1 {
         line-height: 25px;
         font-weight: bold;
     }
